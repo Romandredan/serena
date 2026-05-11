@@ -1,3 +1,24 @@
+> [!NOTE]
+> ## 🧭 Fork status
+>
+> **BSL / 1C:Enterprise support has been merged into upstream Serena** as of
+> [PR #1430](https://github.com/oraios/serena/pull/1430) (2026-05-11).
+>
+> Install the official Serena directly, BSL support is already included:
+> ```bash
+> uv tool install -p 3.13 git+https://github.com/oraios/serena --prerelease=allow
+> ```
+>
+> **Requirements for BSL:** **Java 21+** on `PATH`. The BSL Language Server JAR is
+> downloaded automatically on first use. See the upstream
+> [BSL configuration docs](https://github.com/oraios/serena/blob/main/docs/02-usage/050_configuration.md#bsl-1centerprise--onescript)
+> for settings like `ls_path` and `bsl_ls_version`.
+>
+> This fork will no longer receive fork-specific BSL patches; any follow-up work happens
+> as regular PRs against upstream.
+
+---
+
 <p align="center" style="text-align:center;">
   <img src="resources/serena-logo.svg#gh-light-mode-only" style="width:500px">
   <img src="resources/serena-logo-dark-mode.svg#gh-dark-mode-only" style="width:500px">
